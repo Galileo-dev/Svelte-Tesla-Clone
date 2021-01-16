@@ -1,8 +1,14 @@
 <script>
+  import Header from "./components/header.svelte";
 </script>
 
 <main>
-  <h1>Hello World</h1>
+  <!-- {HEADER} -->
+  <Header />
+  <!-- {items=>Snapping} -->
+  <!-- {items=>Snapping} -->
+  <!-- {items=>Snapping} -->
+  <!-- {items=>Snapping} -->
 </main>
 
 <style>
