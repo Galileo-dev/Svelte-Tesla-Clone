@@ -89,4 +89,9 @@
 </main>
 
 <style>
+  .app__itemsContainer {
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    height: 100vh;
+  }
 </style>

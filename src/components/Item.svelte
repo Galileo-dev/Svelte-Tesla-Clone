@@ -23,9 +23,9 @@
     </div>
     <div class="item_lowerThird">
       <div class="item__buttons" />
-      <Button imp="primary" text="{leftBtnTxt}," link={leftBtnLink} />
+      <Button imp="primary" text={leftBtnTxt} link={leftBtnLink} />
       {#if twoButtons}
-        <Button imp="secondary" text="{rightBtnTxt}," link={rightBtnLink} />
+        <Button imp="secondary" text={rightBtnTxt} link={rightBtnLink} />
       {/if}
     </div>
     {#if first}
@@ -45,10 +45,11 @@
     background-size: cover;
     display: flex;
     justify-content: center;
+    scroll-snap-align: start;
   }
 
   .item__container {
-    width: 40vw;
+    width: vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,8 +81,10 @@
 
   .item__expand {
     color: white;
-    /* width: 100%; */
+    width: 100%;
+
     margin-top: 3%;
-    justify-content: center;
+    text-align: center;
+    justify-items: center;
   }
 </style>
