@@ -91,6 +91,7 @@
 <style>
   .app__itemsContainer {
     scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
     overflow: auto;
     height: 100vh;
   }
