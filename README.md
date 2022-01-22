@@ -2,7 +2,7 @@
 
 
 
-![Alt Text](demo_images\demo.gif)
+![Alt Text](demo_images/demo.gif)
 
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
